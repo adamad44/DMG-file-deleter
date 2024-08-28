@@ -18,23 +18,29 @@ The DMG File Deleter is a simple Python script that automatically scans your Dow
     cd dmg-file-deleter
     ```
 
-2. Open the `gui` folder.
-
-3. Download both files: `GUI.py` and `main.py`.
-
 ## Usage
-1. Run the GUI script:
+1. Run the CLI script:
     ```sh
-    python GUI.py
+    python main.py
     ```
 
-2. The GUI will:
+2. The CLI will:
     - Scan your Downloads folder for `.dmg` files.
     - Prompt you to confirm if you want to delete all detected `.dmg` files.
     - Delete the files if you confirm with 'y'.
 
+3. Alternatively, you can run the GUI script:
+    ```sh
+    python GUI.py
+    ```
+
+4. The GUI will:
+    - Scan your Downloads folder for `.dmg` files.
+    - delete them if you wish
+
 ## Example
 ```sh
-$ python GUI.py
+$ python main.py
 No DMG files found in your downloads folder
 ```
+
